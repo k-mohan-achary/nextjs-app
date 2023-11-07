@@ -1,11 +1,11 @@
 import React from 'react';
+import Link from 'next/link';
+
+
 import Image from 'next/image';  
 import { AppBar, Box, Divider, Drawer, Icon, IconButton, Toolbar, Typography } from '@mui/material';
 import logo from '../../../../../public/logo.png';  
-import { Link } from 'react-router-dom';
-// import FastfoodIcon from '@mui/icons-material/Fastfood'; 
 
-// var logo = 'https://indispare.com/images/logo-new-home.svg';
 
 const Header = () => {
   return (
@@ -24,11 +24,14 @@ const Header = () => {
                         <li>Home</li>
                         <li>About</li>
                         <li>What We Do</li>
-                        <li>Contact</li>
+                        <li>Contact</li>  
+                        <li><Link href={'/show'}> Show</Link>  </li>   
+                        
+
                         
                       </ul>
                     </Box>
-            </Toolbar>
+            </Toolbar> 
 
           </AppBar>
         </Box>

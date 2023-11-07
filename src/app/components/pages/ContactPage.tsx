@@ -11,6 +11,7 @@ import address from '../../../../public/location.png';
 import support from '../../../../public/support.png';
 import mail from '../../../../public/icon/mail.png';
 import phone from '../../../../public/icon/phone.png';
+import Contact from './Contact';
 
 
 // import Box from '@mui/material/Box';
@@ -93,19 +94,9 @@ const ContactPage = () => {
                                         <p>Got Questions? Drop Us a Query!</p>
                                     </Box> 
 
-                                    <Box className="contact-f"> 
-                                        <form> 
-                                          <TextField fullWidth sx={{mb:1}} id="standard-basic" label="Name" variant="standard" />   
-                                          <TextField fullWidth sx={{mb:1}} id="standard-basic" label="Email" variant="standard" />   
-                                          <TextField fullWidth sx={{mb:1}} id="standard-basic" label="Phone No." variant="standard" />  
-                                          {/* <TextField fullWidth sx={{mb:1}} id="standard-basic" label="Message" variant="standard" />    */}
-                                          <TextField fullWidth sx={{mb:1}} multiline rows={5} id="standard-basic" label="Message" variant="standard" /> 
-                                        </form> 
-                                        <Button>
-                                        Get In Touch    
-                                        </Button>  
-                                        <Button> edit </Button>
-                                    </Box> 
+                                    <Contact/>
+
+                                    
                                     
                                 </Box>  
                             </div> 

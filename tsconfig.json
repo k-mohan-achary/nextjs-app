@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["mongoose", "@next/server", /* other types */],
     "plugins": [
       {
         "name": "next"

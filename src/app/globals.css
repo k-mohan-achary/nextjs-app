@@ -20,6 +20,5 @@
 }
 
 body {
-  color: rgb(var(--background-start-rgb)); 
-  /* padding: 20px; */
+  color: rgb(var(--background-start-rgb));  
 }
